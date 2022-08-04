@@ -54,7 +54,7 @@ const UserDashboard = () => {
 	const loadRecommendations = () => {
 		
 		getRecommendationTracks(token, user).then(data => {
-			console.log("data"+data);
+			console.log("user loadRecommendations "+data);
 			if (data.error) {
 				setError(data.error);
 			} else {

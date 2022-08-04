@@ -54,7 +54,7 @@ export const getTrackById = (token, id) => {
 };
 
 export const getRecommendationTracks = (token, user) => {
-	console.log(user);
+	console.log("getRecommendationTracks"+user._id);
 	return fetch(`${API}/user/${user._id}/recommendations`, {
 		method: "GET",
 		headers: {
@@ -63,7 +63,11 @@ export const getRecommendationTracks = (token, user) => {
 			Authorization: `Bearer ${token}`
 		}
 	})
-		.then(data => data.json())
+		.then(data => 
+		{
+			data.json()
+			console.log("All recommendations fetched")
+		})
 		.catch(err => console.log(err));
 };
 

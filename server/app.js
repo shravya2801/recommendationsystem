@@ -53,7 +53,7 @@ const client_secret = 'ce11cca02db0442fad950f559e1ddac5'; // Your secret
 access_token='';
 
 function authSpotifyApi() {
-	access_token = 'BQDKo6pnRXoQJy0VrdM5GsY4dPYGx4Odt2DIcQcP2Ka89AYLRfAJXpjnoGITKFjmbjd3RUqnjIke8Ozs6RsikZ7WH1p4UwlkFZLCLgHYA9yEYAfuIT0';
+	access_token = 'BQALN6TAflHM8Nl-982zITM3rxomM95zl91ZO8uJOwyC4ujRFuNmDYoWBYyj1E7iAAWFOCsjBiysCbh0nLaSGQcb8gb76jBDQQG1-eTnf-i2hCtpADs';
 	/* BQDKo6pnRXoQJy0VrdM5GsY4dPYGx4Odt2DIcQcP2Ka89AYLRfAJXpjnoGITKFjmbjd3RUqnjIke8Ozs6RsikZ7WH1p4UwlkFZLCLgHYA9yEYAfuIT0
 		The access token expires after 1 hour. Uncomment the code below to request a new token (gets logged in the console).
 		Replcae the token value with the `access_token` variable above and comment the code below again to prevent spams for 
